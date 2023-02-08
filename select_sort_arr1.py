@@ -1,4 +1,5 @@
 import sys
+# 배열의 마지막 부터 선택 정렬을 해주는 함수
 def select_sort(x, num):
     cnt = 0
     for i in range(len(x)-1,0,-1):
